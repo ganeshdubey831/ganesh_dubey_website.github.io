@@ -1,0 +1,134 @@
+*{
+margin:0;
+padding:0;
+outline:none;
+}
+/*-----/-NAVBAR -----*/
+#nav-bar{
+position:sticky;
+top:0px;
+z-index:10;
+}
+.navbar{
+/*background-image:linear-gradient(to right,#a517ba,#5f1782);*/
+/*background-image:linear-gradient(to right,#36d1dc,#5b86e5);*/
+background-image:linear-gradient(to right,#ff512f,#dd2476);
+padding:0;
+}
+.navbar-brand{
+color:#fff !important;
+text-shadow:8px 9px 4px  rgba(0,0,0,0.6);
+}
+.navbar-nav li{
+padding:0 10px;
+}
+.navbar-nav li a{
+color:#fff !important;
+font-weight:bold;
+text-align:center;
+font-size:18px;
+border-bottom:3px solid white;
+text-shadow:8px 9px 4px  rgba(0,0,0,0.6);
+}
+
+.fa-bars{
+color:#fff;
+font-size:30px ! important;
+}
+.navbar-toggler{
+outline:none;
+}
+
+/*---------BANNER ------*/
+#banner{
+/*background-image:linear-gradient(to right,#36d1dc,#5b86e5);*/
+background-image:linear-gradient(to right,#ff512f,#dd2476);
+background-attachment: fixed;
+color:white;
+padding-top:5%;
+}
+.promo-title{
+font-size:40px;
+font-weight:600;
+}
+.promo-title2{
+color:white;
+font-size:20px;
+font-weight:bold;
+}
+/*---------SERVICES ------*/
+#services{
+margin-top:100px:
+padding:50px;
+}
+.photo{
+width:100px;
+height: 100px;
+}
+.title::before{
+content: '  ' ;
+background:#7b1798;
+height:5px;
+width:200px;
+margin-left:auto;
+margin-right:auto;
+display:block;
+transform:translateY(63px);
+}
+.title::after{
+content: '  ' ;
+background:#7b1798;
+height:10px;
+width:50px;
+margin-left:auto;
+margin-right:auto;
+display:block;
+transform:translateY(8px);
+}
+#services .btn-primary{
+box-shadow:none;
+padding:8px 25px;
+border:none;
+border-radius:20px;
+background-image:linear-gradient(to right,#a517ba,#5f1782);
+}
+/*---------ABOUT US------*/
+#about-us{
+background:#f8f9fa;
+padding:3px 5px;
+padding-top:50px;
+}
+#about-us ul {
+margin-left:20px;
+}
+#about-us ul li{
+margin:10px 0;
+}
+#design-by{
+padding-top:50px;
+}
+/*---------IMAGE SLIDER----*/
+#imageslider{
+width:100%;
+padding:6px;
+}
+.border-radius-carousel-edit {
+border-radius:10px 10px 10px 10px;
+box-shadow:8px 9px 4px  rgba(0,0,0,0.6);
+}
+
+/*---------DESIGN BY----*/
+.card{
+margin-top:20px;
+border:2px solid white;
+border-radius:0px 20px ;
+box-shadow:8px 9px 4px  rgba(0,0,0,0.6);
+}
+/*---------FOOTER----*/
+#footer{
+background-image:linear-gradient(to right,#ff512f,#dd2476);
+padding-top:20px;
+}
+.footer-name{
+border-bottom:3px solid black;
+}
